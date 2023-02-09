@@ -42,10 +42,17 @@
   .main-index {
     color: #000000;
     background-color: #ffffff;
-    background-image: url("/images/index-background.jpg");
-    background-repeat: repeat;
+    background-image: url("../images/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
   }
 
   .advantades {
     text-align: center;
+  }
+
+  .advantades-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
   }
