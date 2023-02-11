@@ -18,7 +18,7 @@
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
+    color: #333333;
     background-color: #f2f2f2;
   }
 
@@ -26,7 +26,6 @@
     color: #000000;
     background-color: #ffffff;
     width: 1200px;
-
   }
 
   .navigation-link {
@@ -49,12 +48,52 @@
 
   .advantades {
     text-align: center;
+    color: #333333;
+    background-color: #ffffff;
+  }
+
+  .advantades h2 {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .advantades p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .advantades-item {
+    background-color: #82B3D3;
+    color: #ffffff;
+    width: 400px;
+    height: 384px;
+  }
+
+  .advantades-item-square,
+  .advantades-item-tourist {
+    background-color: rgba(131, 179, 211, 0.12);
+    color: #000000;
+  }
+
+  .advantades-item-road {
+    background-color: rgba(131, 179, 211, 0.2);
+    color: #000000;
   }
 
   .advantades-title {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .advantades-discription-square,
+  .advantades-discription-road,
+  .advantades-discription-tourist {
+    color: #333333;
   }
 
   .dignity {
@@ -62,11 +101,55 @@
   }
 
   .dignity-title {
-     font-size: 24px;
+    font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    font-weight: 700;
   }
 
   .hotel-search {
     text-align: center;
+  }
+
+  .hotel-search-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  .hotel-search-discription {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+
+  .button-coffee {
+    background: #756157;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .subscribe {
+    background-image: url(../images/subscribe.jpg);
+    width: 1200px;
+    height: 415px;
+    color:#ffffff;
+    background-color: #000000;
+    text-align: center;
+  }
+
+  .subscribe-title {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .subscribe-discription {
+    font-size: 22px;
+    line-height: 26px;
   }
