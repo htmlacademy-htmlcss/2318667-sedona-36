@@ -22,6 +22,18 @@
     background-color: #f2f2f2;
   }
 
+  .button {
+    background: #756157;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  /*Хедер*/
   .page-header {
     color: #000000;
     background-color: #ffffff;
@@ -46,6 +58,15 @@
     background-size: 100% auto;
   }
 
+  .button-header {
+    width: 160px;
+    height: 36px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /*Приемущества*/
   .advantades {
     text-align: center;
     color: #333333;
@@ -96,6 +117,7 @@
     color: #333333;
   }
 
+  /*Достоинства*/
   .dignity {
     text-align: center;
     color: #333333;
@@ -122,6 +144,7 @@
     color: #000000;
   }
 
+  /*Поиск гостиницы*/
   .hotel-search {
     text-align: center;
     color: #333333;
@@ -138,19 +161,16 @@
     line-height: 26px;
   }
 
-
-  .button-coffee {
-    background: #756157;
-    border-radius: 4px;
-    color: #ffffff;
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
+  .button-hotel-search {
+    width: 376px;
+    height: 52px;
+    align-items: center;
     font-size: 20px;
     line-height: 36px;
     text-transform: uppercase;
   }
 
+  /* Подписаться*/
   .subscribe {
     background-image: url(../images/subscribe.jpg);
     width: 1200px;
@@ -163,10 +183,36 @@
   .subscribe-title {
     font-size: 30px;
     line-height: 36px;
+    font-weight: 700;
     text-transform: uppercase;
   }
 
   .subscribe-discription {
     font-size: 22px;
     line-height: 26px;
+  }
+
+  .button-subscribe {
+    align-items: center;
+    width: 232px;
+    height: 52px;
+    background: #82B3D3;
+    border-radius: 0 4px 4px 0;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  /*Футер*/
+  .page-footer {
+    color: #333333;
+    background-color: #ffffff;
+  }
+
+  .footer-contacts-address-phone {
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
   }
