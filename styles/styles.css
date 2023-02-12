@@ -56,6 +56,21 @@
     color: #000000;
     background-color: #ffffff;
     width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation-list {
+    max-width: 600px;
+  }
+
+  .navigation-user-list {
+    max-width: 600px;
+    margin-left: auto;
   }
 
   .navigation-link {
@@ -86,6 +101,11 @@
     background-position: bottom center, center;
   }
 
+  .hero-img {
+    display: block;
+    margin: 0 auto;
+  }
+
   /*Приемущества*/
   .advantades {
     text-align: center;
@@ -99,18 +119,32 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
+    padding: 69px 290px 25px 290px;
   }
 
   .advantades p {
     font-size: 22px;
     line-height: 26px;
+    padding-bottom: 69px;
+  }
+
+  .advantades-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .advantades-item {
     background-color: #82B3D3;
     color: #ffffff;
     width: 400px;
-    height: 384px;
+  }
+
+  .advantades-cite,
+  .advantades-bridge {
+    display: flex;
+    width: 1200px;
   }
 
   .advantades-item-square,
@@ -142,6 +176,8 @@
     text-align: center;
     color: #333333;
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
   }
 
   .dignity h2 {
@@ -150,12 +186,30 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
+    padding: 64px 348px 20px 347px;
   }
 
   .dignity p {
     font-size: 22px;
     line-height: 26px;
+    padding-bottom: 64px;
   }
+
+  .dignity-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dignity-item {
+    background-color: rgba(131, 179, 211, 0.12);
+    color: #333333;
+    width: 400px;
+  }
+
+  .dignity-food {
+    background-color: #ffffff;
+  }
+
   .dignity-title {
     font-size: 24px;
     line-height: 28px;
@@ -168,6 +222,8 @@
   .hotel-search {
     text-align: center;
     color: #333333;
+    background-color: #ffffff;
+    padding: 96px 304px;
   }
 
   .hotel-search-title {
@@ -197,6 +253,12 @@
     color:#ffffff;
     background-color: #000000;
     text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .subscribe-blok {
+    padding: 96px 258px 104px 258px;
   }
 
   .subscribe-title {
@@ -225,6 +287,8 @@
   .page-footer {
     color: #333333;
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
   }
 
   .footer-contacts-address-phone {
