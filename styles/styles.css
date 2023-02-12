@@ -33,6 +33,11 @@
     text-decoration: none;
   }
 
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
   /*Хедер*/
   .page-header {
     color: #000000;
@@ -58,6 +63,7 @@
     line-height: 20px;
   }
 
+  /*Главная*/
   .hero {
     color: #000000;
     background-color: #ffffff;
