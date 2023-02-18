@@ -36,7 +36,7 @@
     background: #756157;
     border-radius: 4px;
     color: #ffffff;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -119,7 +119,7 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
-    padding: 69px 290px 25px 290px;
+    padding-top: 69px;
   }
 
   .advantades p {
@@ -139,12 +139,14 @@
     background-color: #82B3D3;
     color: #ffffff;
     width: 400px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .advantades-cite,
   .advantades-bridge {
     display: flex;
-    width: 1200px;
+    width: 400px;
   }
 
   .advantades-item-square,
@@ -186,7 +188,7 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
-    padding: 64px 348px 20px 347px;
+    padding-top: 64px;
   }
 
   .dignity p {
@@ -258,7 +260,7 @@
   }
 
   .subscribe-blok {
-    padding: 96px 258px 104px 258px;
+    padding-top: 96px;
   }
 
   .subscribe-title {
