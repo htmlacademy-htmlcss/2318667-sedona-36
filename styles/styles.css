@@ -28,6 +28,17 @@
     background-color: #f2f2f2;
   }
 
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
   .main-container {
     flex-grow: 1;
   }
@@ -64,13 +75,24 @@
     padding: 0;
   }
 
+  .navigation-logo {
+    padding-left: 70px;
+  }
+
   .navigation-list {
-    max-width: 600px;
+    max-width: 370px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .navigation-user-list {
-    max-width: 600px;
+    max-width: 270px;
     margin-left: auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 70px;
   }
 
   .navigation-link {
@@ -81,6 +103,13 @@
     text-decoration: none;
     text-align: center;
     text-transform: capitalize;
+    padding: 20px 16px;
+    display: block;
+  }
+
+  .navigation-user .navigation-link {
+    min-width: 44px;
+    min-height: 64px;
   }
 
   .button-header {
@@ -104,6 +133,8 @@
   .hero-img {
     display: block;
     margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
   }
 
   /*Приемущества*/
@@ -119,7 +150,7 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
-    padding-top: 69px;
+    padding-top: 70px;
   }
 
   .advantades p {
@@ -131,33 +162,39 @@
   .advantades-list {
     margin: 0;
     padding: 0;
+    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .advantsdes-object {
+    width: 230px;
+    min-height: 200px;
+    padding: 90px 85px;
   }
 
   .advantades-item {
-    background-color: #82B3D3;
-    color: #ffffff;
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .advantades-cite,
-  .advantades-bridge {
-    display: flex;
-    width: 400px;
-  }
-
-  .advantades-item-square,
-  .advantades-item-tourist {
     background-color: rgba(131, 179, 211, 0.12);
-    color: #000000;
+    width: 400px;
   }
 
-  .advantades-item-road {
+  .advantades-item:nth-child(odd) {
+    background-color: #82B3D3;
+  }
+
+  .advantades-item:nth-child(3) {
     background-color: rgba(131, 179, 211, 0.2);
-    color: #000000;
+  }
+
+  .advantades-item-wide {
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+  }
+
+  .advantades-item-wide h3 {
+    color: #ffffff;
   }
 
   .advantades-title {
@@ -165,12 +202,8 @@
     line-height: 28px;
     text-transform: uppercase;
     font-weight: 700;
-  }
-
-  .advantades-discription-square,
-  .advantades-discription-road,
-  .advantades-discription-tourist {
-    color: #333333;
+    color: #000000;
+    margin-top: 0;
   }
 
   /*Достоинства*/
@@ -200,6 +233,8 @@
   .dignity-list {
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    padding: 0;
   }
 
   .dignity-item {
@@ -218,6 +253,8 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
+    margin-top: 0;
+    margin-bottom: 30px;
   }
 
   /*Поиск гостиницы*/
@@ -245,6 +282,7 @@
     align-items: center;
     font-size: 20px;
     line-height: 36px;
+    padding: 8px 50px;
   }
 
   /* Подписаться*/
@@ -289,6 +327,10 @@
   .page-footer {
     color: #333333;
     background-color: #ffffff;
+  }
+
+  .page-footer-container {
+    padding: 40px 0;
     display: flex;
     justify-content: space-between;
   }
@@ -300,4 +342,17 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
+  }
+
+  .footer-social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-social-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48px;
+    height: 40px;
   }
