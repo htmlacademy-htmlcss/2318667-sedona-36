@@ -14,6 +14,11 @@
     font-display: swap;
   }
 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
   html {
     height: 100%;
   }
@@ -93,6 +98,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-right: 70px;
+    margin: 0;
   }
 
   .navigation-link {
@@ -110,6 +116,8 @@
   .navigation-user .navigation-link {
     min-width: 44px;
     min-height: 64px;
+    margin: 0;
+    padding: 0;
   }
 
   .button-header {
@@ -327,6 +335,8 @@
   .page-footer {
     color: #333333;
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
   }
 
   .page-footer-container {
