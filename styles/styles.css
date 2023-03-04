@@ -77,14 +77,10 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: 0;
-    padding: 0;
+    padding: 0 70px;
   }
 
-  .navigation-logo {
-    padding-left: 70px;
-  }
-
-  .navigation-list {
+   .navigation-list {
     max-width: 370px;
     list-style: none;
     display: flex;
@@ -97,7 +93,6 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding-right: 70px;
     margin: 0;
   }
 
@@ -329,6 +324,7 @@
     border-radius: 0 4px 4px 0;
     font-size: 20px;
     line-height: 36px;
+    border: none;
   }
 
   /*Футер*/
