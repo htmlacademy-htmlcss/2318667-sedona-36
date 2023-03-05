@@ -401,7 +401,7 @@
 
   .page-footer-container {
     height: 120px;
-    padding: 40px 0;
+    padding: 40px 70px;
     display: flex;
     justify-content: space-between;
   }
