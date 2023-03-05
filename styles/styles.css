@@ -264,6 +264,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
+    margin: 0;
     padding: 0;
   }
 
@@ -271,9 +272,11 @@
     background-color: rgba(131, 179, 211, 0.12);
     color: #333333;
     width: 400px;
+    min-height: 385px;
+    padding: 81px 85px;
   }
 
-  .dignity-food {
+  .dignity-item:nth-child(even) {
     background-color: #ffffff;
   }
 
@@ -285,6 +288,15 @@
     color: #000000;
     margin-top: 0;
     margin-bottom: 30px;
+  }
+
+  .dignity-picture {
+    margin-bottom: 30px;
+  }
+
+  .dignity-item p {
+    margin: 0;
+    padding: 0;
   }
 
   /*Поиск гостиницы*/
@@ -381,6 +393,7 @@
   }
 
   .page-footer-container {
+    height: 120px;
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
