@@ -201,14 +201,21 @@
   .advantsdes-object {
     width: 230px;
     height: 185px;
-    padding: 100px 85px;
-    margin: 0;
+    text-align: center;
+    margin: 100px 85px;
   }
 
   .advantades-item {
     background-color: rgba(131, 179, 211, 0.12);
     width: 400px;
     margin: 0;
+  }
+
+  .advantades-item p {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
   }
 
   .advantades-item:nth-child(even) {
