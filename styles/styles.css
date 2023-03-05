@@ -125,12 +125,21 @@
     text-transform: capitalize;
   }
 
-  /*.navigation-user .navigation-list {
-    min-width: 44px;
-    min-height: 64px;
-    margin: 0;
-    padding: 0;
-  } */
+  .navigation-link-current {
+    position: relative;
+  }
+
+  .navigation-link-current::before {
+    content: '';
+    background-color: #756257;
+    height: 2px;
+    bottom: -1px;
+    top: 43px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+  }
 
   .button-header {
     width: 160px;
