@@ -84,6 +84,7 @@
   .navigation-logo {
     position: relative;
   }
+
   .page-header-logo {
     margin-bottom: -6px;
   }
@@ -151,19 +152,27 @@
 
   /*Главная*/
   .hero {
-    color: #000000;
-    background-color: #ffffff;
-    background-image: url(../images/divider.svg), url("../images/index-background.jpg");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100% auto, 100% auto;
-    background-position: bottom center, center;
-  }
-
-  .hero-img {
-    display: block;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 80px;
+    background-color: #2f4552;
+    background-image: url("../images/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    position: relative;
+  }
+
+  .hero::after {
+    content: url(../images/divider.svg);
+    width: 100%;
+    height: 57px;
+    position: absolute;
+    bottom: 0;
   }
 
   /*Приемущества*/
@@ -193,9 +202,8 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .advantsdes-object {
@@ -223,10 +231,17 @@
   }
 
   .advantades-item-wide {
+    grid-column: 1/-1;
     width: 100%;
     color: #ffffff;
-    display: flex;
     background-color: #82B3D3;
+    display: grid;
+    grid-template-columns: 400px 800px;
+  }
+
+  .bridge {
+    display: grid;
+    grid-template-columns: 800px 400px;
   }
 
   .advantades-item-wide h3 {
@@ -240,6 +255,10 @@
     font-weight: 700;
     color: #000000;
     margin-top: 0;
+  }
+
+  .advantades-item-picture {
+    display: grid;
   }
 
   /*Достоинства*/
@@ -269,6 +288,7 @@
 
   .dignity-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
     margin: 0;
@@ -397,10 +417,10 @@
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    min-height: 120px;
   }
 
   .page-footer-container {
-    height: 120px;
     padding: 40px 70px;
     display: flex;
     justify-content: space-between;
@@ -419,6 +439,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
   }
 
   .footer-social-item {
