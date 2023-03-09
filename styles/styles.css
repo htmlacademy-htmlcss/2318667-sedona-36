@@ -175,91 +175,85 @@
     bottom: 0;
   }
 
-  /*Приемущества*/
-  .advantades {
-    text-align: center;
-    color: #333333;
-    background-color: #ffffff;
-  }
+ /*Приемущества*/
+ .advantades {
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+}
 
-  .advantades h2 {
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #000000;
-    padding-top: 70px;
-    margin: 0;
-  }
+.advantades h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+  padding-top: 70px;
+  margin: 0;
+}
 
-  .advantades p {
-    font-size: 22px;
-    line-height: 26px;
-    padding-bottom: 69px;
-  }
+.advantades p {
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 69px;
+}
 
-  .advantades-list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+.advantades-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
 
-  .advantsdes-object {
-    width: 230px;
-    height: 185px;
-    text-align: center;
-    margin: 100px 85px;
-  }
+.advantsdes-object {
+  width: 230px;
+  height: 185px;
+  text-align: center;
+  margin: 100px 85px;
+}
 
-  .advantades-item {
-    background-color: rgba(131, 179, 211, 0.12);
-    width: 400px;
-    margin: 0;
-  }
+.advantades-item {
+  background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+  margin: 0;
+}
 
-  .advantades-item p {
-    font-size: 18px;
-    line-height: 21px;
-    margin: 0;
-    padding: 0;
-  }
+.advantades-item p {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+}
 
-  .advantades-item:nth-child(even) {
-    background-color: rgba(131, 179, 211, 0.2);
-  }
+.advantades-item:nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
 
-  .advantades-item-wide {
-    grid-column: 1/-1;
-    width: 100%;
-    color: #ffffff;
-    background-color: #82B3D3;
-    display: grid;
-    grid-template-columns: 400px 800px;
-  }
+.advantades-item-wide {
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  background-color: #82B3D3;
+}
 
-  .bridge {
-    display: grid;
-    grid-template-columns: 800px 400px;
-  }
+.advantades-item-wide h3 {
+  color: #ffffff;
+}
 
-  .advantades-item-wide h3 {
-    color: #ffffff;
-  }
+.advantades-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 0;
+}
 
-  .advantades-title {
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #000000;
-    margin-top: 0;
-  }
-
-  .advantades-item-picture {
-    display: grid;
-  }
+.advantades-item-picture {
+  display: flex;
+}
 
   /*Достоинства*/
   .dignity {
