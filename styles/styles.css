@@ -84,6 +84,7 @@
   .navigation-logo {
     position: relative;
   }
+
   .page-header-logo {
     margin-bottom: -6px;
   }
@@ -201,9 +202,8 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .advantsdes-object {
@@ -231,10 +231,17 @@
   }
 
   .advantades-item-wide {
+    grid-column: 1/-1;
     width: 100%;
     color: #ffffff;
-    display: flex;
     background-color: #82B3D3;
+    display: grid;
+    grid-template-columns: 400px 800px;
+  }
+
+  .bridge {
+    display: grid;
+    grid-template-columns: 800px 400px;
   }
 
   .advantades-item-wide h3 {
@@ -251,7 +258,7 @@
   }
 
   .advantades-item-picture {
-    display: flex;
+    display: grid;
   }
 
   /*Достоинства*/
@@ -410,10 +417,10 @@
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    min-height: 120px;
   }
 
   .page-footer-container {
-    height: 120px;
     padding: 40px 70px;
     display: flex;
     justify-content: space-between;
@@ -432,6 +439,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
   }
 
   .footer-social-item {
