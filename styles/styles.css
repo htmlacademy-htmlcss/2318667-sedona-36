@@ -250,6 +250,17 @@
   margin-top: 0;
 }
 
+.advantades-title::after {
+  display: block;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .advantades-item-picture {
   display: flex;
 }
@@ -440,4 +451,39 @@
     flex-wrap: wrap;
     width: 48px;
     height: 40px;
+  }
+
+  .footer-social-link {
+    padding: 13px 12px;
+  }
+
+  .footer-social-link path{
+    fill: #83b3d3;
+  }
+
+  .footer-social-link:hover path,
+  .footer-social-link:focus path {
+    fill: #68a2ca;
+  }
+
+  .footer-social-link:active path {
+    fill: rgba(104, 162, 202, 0,3);
+  }
+
+  .footer-contacts-address-phone:hover,
+  .footer-contacts-address-phone:focus {
+    color: #756157;
+  }
+
+  .footer-contacts-address-phone:active {
+    color: rgba(117, 97, 87, 0.3);
+  }
+
+  .page-footer-logo:hover path,
+  .page-footer-logo:focus path{
+    fill: #756157;
+  }
+
+  .page-footer-logo:active path {
+    fill: rgba(117, 97, 87, 0.3);
   }
