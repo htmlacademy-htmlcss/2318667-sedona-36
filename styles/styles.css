@@ -60,6 +60,16 @@
     text-decoration: none;
   }
 
+  .button:hover,
+  .button:focus {
+    background: #615048;
+  }
+
+  .button:active {
+    background:#756157;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
   .container {
     margin: 0 auto;
     width: 1200px;
@@ -431,6 +441,16 @@
     line-height: 36px;
     border: none;
     padding: 0;
+  }
+
+  .button-subscribe:hover,
+  .button-subscribe:focus {
+    background: #68A2CA;
+  }
+
+  .button-subscribe:active {
+    background: #82b3d3;
+    color: rgba(255, 255, 255, 0.3);
   }
 
   /*Футер*/
