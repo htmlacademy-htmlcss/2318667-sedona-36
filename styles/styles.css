@@ -99,10 +99,8 @@
 
   .navigation-logo {
     position: relative;
-  }
-
-  .page-header-logo {
     margin-bottom: -6px;
+    z-index: 1;
   }
 
    .navigation-list {
