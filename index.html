@@ -137,6 +137,7 @@
             <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
             <p class="subscribe-discription">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
             <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="visually-hidden" for="subscribe-email">Ваш e-mail</label>
               <input class="field"  placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email" required>
               <button class="button button-subscribe" type="submit">Подписаться</button>
             </form>
@@ -208,6 +209,27 @@
           </button>
           <section class="modal-content">
             <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+              <div class="modal-data-arrival">
+                    <label class="form-label" for="data-arrival">Дата Заезда:</label>
+                    <input type="text" id="data-arrival" name="data-arrival" placeholder="27 апреля 2020">
+                    <p class="text-data-departure">Мы не можем отправить вас в прошлое.</p>
+              </div>
+              <div class="modal-data-departure">
+                <label class="form-label" for="data-departure">Дата Выезда:</label>
+                <input type="text" id="data-departure" name="data-departure" placeholder="1 сентября 2023">
+                <p class="">На эти даты есть свободные номера. Пока есть.</p>
+              </div>
+              <div class="modal-adults">
+                <label class="adults-label" for="number-adults">Взрослые</label>
+                <input class="adults" type="text" id="number-adults" name="number-adults" placeholder="2">
+              </div>
+              <div class="modal-children">
+                <label class="children-label" for="number-children">Дети</label>
+                <input class="children" type="text" id="anumber-children" name="number-children" placeholder="2">
+              </div>
+              <button class="button button-modal" type="submit">Найти</button>
+            </form>
           </section>
         </div>
       </div>
