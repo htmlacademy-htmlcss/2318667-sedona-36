@@ -70,6 +70,11 @@
     color: rgba(255, 255, 255, 0.3);
   }
 
+  .button:disabled {
+    background: #E5E5E5;
+    color: #ffffff;
+  }
+
   .container {
     margin: 0 auto;
     width: 1200px;
@@ -94,10 +99,8 @@
 
   .navigation-logo {
     position: relative;
-  }
-
-  .page-header-logo {
     margin-bottom: -6px;
+    z-index: 1;
   }
 
    .navigation-list {
@@ -524,4 +527,55 @@
 
   .page-footer-logo:active path {
     fill: rgba(117, 97, 87, 0.3);
+  }
+
+  /*Модальное окно*/
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 242, 242, 0.8);
+  }
+
+  /*.modal-container-close {
+    display: none;
+  } */
+
+  .modal {
+    position: relative;
+    margin: auto;
+    padding: 64px 70px;
+    background-color: #ffffff;
+  }
+
+  .modal-auth {
+    width: 720px;
+  }
+
+  .modal-close-button {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    right: 0;
+    width: 14px;
+    height: 14px;
+    background-color: #f2f2f2;
+    border: 50%;
+    background-image: url(../images/close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .modal-title {
+    margin: 0;
+    margin-bottom: 64px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
   }
