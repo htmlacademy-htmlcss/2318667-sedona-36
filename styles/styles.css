@@ -750,6 +750,7 @@
 
 .popover-content {
   width: 256px;
+  min-height: 143px;
   background-color: #333333;
   border-radius: 10px;
   position: absolute;
@@ -757,11 +758,22 @@
   right: 112px;
 }
 
+.popover-content::after {
+  content: '';
+  position: absolute;
+  bottom: 143px;
+  left: 116px;
+  border: 9px solid transparent;
+  border-bottom: 9px solid #333333;
+}
+
 .popover-title {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  padding: 18px;
+  padding-top: 15px;
+  padding-left: 22px;
+  padding-right: 18px;
   align-items: center;
   margin: 0;
 }
