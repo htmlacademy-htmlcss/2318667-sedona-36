@@ -575,6 +575,18 @@
     cursor: pointer;
   }
 
+  .modal-close-button:hover {
+    background-color: rgba(230, 230, 230, 1);
+  }
+
+  .modal-close-button:focus {
+    outline: 3px solid rgba(131, 179, 211, 1);
+  }
+
+  .modal-close-button:active {
+    opacity: 0,3;
+  }
+
   .modal-title {
     margin: 0;
     margin-bottom: 64px;
@@ -689,6 +701,22 @@
     -webkit-appearance: none;
 }
 
+.info-button {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #82B3D3;
+  border: none;
+  padding: 0;
+  margin-top: 11px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.info-svg {
+  margin: 7px 12px;
+}
+
 .modal-submit {
   width: 577px;
   height: 60px;
@@ -718,4 +746,22 @@
   display: flex;
   justify-content: space-between;
   margin-top: 23px;
+}
+
+.popover-content {
+  width: 256px;
+  background-color: #333333;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 25px;
+  right: 112px;
+}
+
+.popover-title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 18px;
+  align-items: center;
+  margin: 0;
 }
