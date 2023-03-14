@@ -748,6 +748,13 @@
   margin-top: 23px;
 }
 
+.persons-input {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
 .popover-content {
   width: 256px;
   min-height: 143px;
