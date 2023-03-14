@@ -585,6 +585,11 @@
     text-transform: uppercase;
   }
 
+  .modal-flex {
+    width: 577px;
+    display: flex;
+  }
+
   .form-label {
     color: #000000;
     font-weight: 700;
@@ -610,12 +615,15 @@
     padding-left: 20px;
   }
 
-  .modal-data-departure {
-    position: relative;
+  .modal-data-arrival {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .form-label-arrival {
-    padding-right: 24px;
+  .modal-data-departure {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
   }
 
   .form-label-departure {
@@ -626,15 +634,18 @@
     color: #ff5757;
     font-size: 16px;
     line-height: 21px;
-    align-items: center;
     margin-top: 4px;
     margin-left: 137px;
+    padding-left: 20px;
   }
 
   .text-data-departure {
     font-size: 16px;
     line-height: 21px;
     color: #333333;
+    margin-top: 4px;
+    margin-left: 137px;
+    padding-left: 20px;
   }
 
   .modal-button {
@@ -658,6 +669,7 @@
     height: 48px;
     background-color: #f2f2f2;
     border: none;
+    padding: 14px 10px;
   }
 
   .modal-adults {
@@ -689,6 +701,7 @@
   background-color: #82B3D3;
   border: none;
   border-radius: 10px;
+  margin-top: 48px;
 }
 
 .modal-submit:hover,
@@ -704,4 +717,5 @@
 .persons {
   display: flex;
   justify-content: space-between;
+  margin-top: 23px;
 }
