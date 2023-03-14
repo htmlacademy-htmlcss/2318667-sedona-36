@@ -625,6 +625,9 @@
     color: #000000;
     padding: 0;
     padding-left: 20px;
+    background-image: url(../images/calendar.svg);
+    background-repeat: no-repeat;
+    background-position: 402px 16px;
   }
 
   .modal-data-arrival {
