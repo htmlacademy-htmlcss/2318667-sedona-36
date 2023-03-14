@@ -714,6 +714,7 @@
   margin-top: 11px;
   margin-left: 10px;
   position: relative;
+  display: block;
 }
 
 .info-svg {
@@ -766,6 +767,8 @@
   position: absolute;
   bottom: 25px;
   right: 112px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  display: none;
 }
 
 .popover-content::after {
@@ -786,4 +789,8 @@
   padding-right: 18px;
   align-items: center;
   margin: 0;
+}
+
+.info-button:hover + .popover-content {
+  display: block;
 }
