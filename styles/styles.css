@@ -498,16 +498,16 @@
     padding: 13px 12px;
   }
 
-  .footer-social-link path{
+  .footer-social-icon path{
     fill: #83b3d3;
   }
 
-  .footer-social-link:hover path,
-  .footer-social-link:focus path {
+  .footer-social-icon:hover path,
+  .footer-social-icon:focus path {
     fill: #68a2ca;
   }
 
-  .footer-social-link:active path {
+  .footer-social-icon:active path {
     fill: rgba(104, 162, 202, 0,3);
   }
 
@@ -542,7 +542,7 @@
 
   /*.modal-container-close {
     display: none;
-  } */
+  }*/
 
   .modal {
     position: relative;
