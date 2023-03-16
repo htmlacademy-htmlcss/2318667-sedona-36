@@ -91,7 +91,7 @@
     width: 1200px;
     height: 64px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
     margin: 0;
     padding: 0 70px;
@@ -104,12 +104,12 @@
   }
 
    .navigation-list {
-    width: 370px;
+    width: 340px;
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 46px;
+    margin-left: 30px;
   }
 
   .navigation-user {
@@ -117,7 +117,7 @@
   }
 
   .navigation-user-list {
-    max-width: 370px;
+    max-width: 268px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -126,14 +126,18 @@
     padding: 0;
   }
 
-  .navigation-item {
-    padding: 22px 12px;
+  .navigation-list li {
+    margin: 20px 16px;
+  }
+
+  .navigation-icon {
+    margin: 22px 12px;
   }
 
   .number-favorites {
     position: absolute;
-    bottom: 11px;
-    left: 8px;
+    bottom: 35px;
+    left: 20px;
     font-size: 10px;
     line-height: 10px;
     color: #ffffff;
@@ -177,6 +181,7 @@
     line-height: 20px;
     padding: 8px 34px;
     margin-left: 20px;
+    margin-bottom: 14px;
   }
 
   /*Главная*/
@@ -638,6 +643,18 @@
     background-image: url(../images/calendar.svg);
     background-repeat: no-repeat;
     background-position: 402px 16px;
+  }
+
+  .input:hover {
+    background-color: #E6E6E6;
+  }
+  .input:focus {
+    background-color: #E6E6E6;
+    outline: 3px solid #83B3D3;
+  }
+
+  .input:active {
+    outline: 2px solid #000000;
   }
 
   .modal-data-arrival {
