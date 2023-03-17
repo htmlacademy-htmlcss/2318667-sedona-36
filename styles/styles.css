@@ -121,7 +121,6 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
     margin: 0;
     padding: 0;
   }
@@ -154,6 +153,10 @@
     text-decoration: none;
     text-align: center;
     text-transform: capitalize;
+    position: relative;
+  }
+
+  .navigation-user-link {
     position: relative;
   }
 
