@@ -224,15 +224,17 @@
     font-weight: 700;
     color: #000000;
     margin: 0;
-    padding-top: 69px;
     padding-bottom: 25px;
+  }
+
+  .advantades-text {
+    padding: 69px 270px;
   }
 
   .advantades p {
     font-size: 22px;
     line-height: 26px;
     margin: 0;
-    padding-bottom: 94px;
   }
 
   .advantades-list {
@@ -304,6 +306,10 @@
 
   .advantades-item-picture {
     display: flex;
+  }
+
+  .advantades-picture {
+    object-fit: cover;
   }
 
   /*Достоинства*/
@@ -411,10 +417,12 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    object-fit: cover;
   }
 
   .subscribe-blok {
-    padding-top: 96px;
+    padding: 96px 258px;
+    margin-bottom: 8px;
   }
 
   .subscribe-title {
@@ -561,9 +569,9 @@
     z-index: 2;
   }
 
-  .modal-container-close {
+  /*.modal-container-close {
     display: none;
-  }
+  }*/
 
   .modal {
     position: relative;
@@ -610,6 +618,7 @@
   .modal-title {
     margin: 0;
     margin-bottom: 64px;
+    margin-right: 164px;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -630,6 +639,7 @@
     align-items: center;
     text-transform: capitalize;
     padding-top: 12px;
+    max-width: 120px;
   }
 
   .input {
