@@ -397,7 +397,16 @@
     margin-bottom: 30px;
   }
 
+  .dignity-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .dignity-picture {
+    width: 75px;
+    height: 72px;
+    margin: 0;
     margin-bottom: 30px;
   }
 
@@ -421,10 +430,13 @@
     line-height: 36px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
   }
   .hotel-search-discription {
     font-size: 22px;
     line-height: 26px;
+    margin: 0;
   }
 
   .button-hotel-search {
@@ -434,6 +446,9 @@
     font-size: 20px;
     line-height: 36px;
     padding: 8px 50px;
+    margin: 0;
+    margin-top: 54px;
+    display: inline-block;
   }
 
   /* Подписаться*/
