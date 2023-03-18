@@ -630,9 +630,9 @@
     z-index: 2;
   }
 
-  /*.modal-container-close {
+  .modal-container-close {
     display: none;
-  }*/
+  }
 
   .modal {
     position: relative;
@@ -763,6 +763,10 @@
     padding-left: 20px;
   }
 
+  .amt {
+    display: flex;
+  }
+
   .modal-button {
     background-color: #F2F2F2;
     width: 40px;
@@ -780,12 +784,12 @@
   }
 
   .persons-input {
-    width: 100%;
-    box-sizing: border-box;
+    width: 60px;
     height: 48px;
     background-color: #f2f2f2;
     border: none;
     padding: 14px 10px;
+    text-align: center;
   }
 
   .modal-adults {
