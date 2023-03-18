@@ -465,7 +465,8 @@
   }
 
   .subscribe-blok {
-    padding: 96px 258px;
+    padding-left: 258px;
+    padding-right: 258px;
   }
 
   .subscribe-title {
@@ -474,6 +475,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
+    padding-top: 96px;
     padding-bottom: 20px;
   }
 
@@ -487,6 +489,7 @@
   .subscribe-form {
     display: flex;
     justify-content:center;
+    padding-bottom: 104px;
   }
 
   .field {
@@ -495,6 +498,7 @@
     width: 452px;
     height: 52px;
     background: #F2F2F2;
+    color: #000000;
     border-radius: 4px 0 0 4px;
     border: none;
     padding: 0;
@@ -538,12 +542,16 @@
     margin: 0;
     padding: 0;
     min-height: 120px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .page-footer-container {
-    padding: 40px 70px;
+    margin-top: 40px;
+    min-height: 50px;
     display: flex;
     justify-content: space-between;
+    padding-top: 5px;
   }
 
   .footer-contacts-address-phone {
@@ -565,6 +573,7 @@
   .footer-social-item {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     width: 48px;
     height: 40px;
   }
@@ -595,6 +604,11 @@
     color: rgba(117, 97, 87, 0.3);
   }
 
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+
   .page-footer-logo:hover path,
   .page-footer-logo:focus path{
     fill: #756157;
@@ -616,9 +630,9 @@
     z-index: 2;
   }
 
-  .modal-container-close {
+  /*.modal-container-close {
     display: none;
-  }
+  }*/
 
   .modal {
     position: relative;
