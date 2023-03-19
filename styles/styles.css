@@ -766,6 +766,7 @@
   .modal-data-arrival {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 23px;
   }
 
   .modal-data-departure {
@@ -778,8 +779,8 @@
     color: #ff5757;
     font-size: 16px;
     line-height: 21px;
-    margin-top: 4px;
-    margin-left: 137px;
+    margin: 0;
+    padding-top: 4px;
     padding-left: 20px;
   }
 
@@ -787,9 +788,9 @@
     font-size: 16px;
     line-height: 21px;
     color: #333333;
-    margin-top: 4px;
-    margin-left: 137px;
+    padding-top: 4px;
     padding-left: 20px;
+    margin: 0;
   }
 
   .amt {
@@ -820,6 +821,9 @@
     padding: 14px 10px;
     text-align: center;
     color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   .persons-input::placeholder {
@@ -916,13 +920,6 @@
     margin-top: 23px;
   }
 
-  .persons-input {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #000000;
-  }
-
   .popover-content {
     width: 256px;
     min-height: 143px;
@@ -939,7 +936,7 @@
     content: '';
     position: absolute;
     bottom: 143px;
-    left: 116px;
+    left: 88px;
     border: 9px solid transparent;
     border-bottom: 9px solid #333333;
   }
